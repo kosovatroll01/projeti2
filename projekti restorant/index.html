@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuzhina e Argjendit</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-3" style="background-color: black;">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h3" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Kuzhina e Argjendit</h1>
+                <nav>
+                    <a href="index.html" class="text-white mx-2">Ballina</a>
+                    <a href="menu.html" class="text-white mx-2">Menu</a>
+                    <a href="reservation.html" class="text-white mx-2">Rezervime</a>
+                    <a href="contact.html" class="text-white mx-2">Na Kontaktoni</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Slider -->
+         
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/hero1.jpg" class="d-block w-100" alt="Restaurant Interior" style="width: 1920px; height: 900px;">
+                    <div class="carousel-caption">
+                        <h2>Mirësevini në Restorantin Tonë</h2>
+                        <p>Përjetoni ushqimin më të mirë me ne!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero2.jpg" class="d-block w-100" alt="Delicious Dish" style="width: 1920px; height: 900px;">
+                    <div class="carousel-caption">
+                        <h2>Pjatat tona më të njohura</h2>
+                        <p>Përgatitur me dashuri dhe përbërësit më të mirë.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- About Section -->
+        <section class="about py-5">
+            <div class="container text-center">
+                <h3>Për Ne</h3>
+                <p>Ne ofrojmë një përzierje shijesh tradicionale me një kthesë moderne, duke siguruar një përvojë të paharrueshme ushqimi.</p>
+                <p>Shefat tanë kujdesen që çdo pjatë të nxjerrë në pah shijet dhe përbërësit unikë të kuzhinës sonë.</p>
+                <p>Nje fotografi rreth Resortit tone:</p>
+                <img src="images/resort.jfif" style="height: 460px; width: 1300px;">
+            </div>
+        </section>
+
+        <!-- Featured Dishes Section -->
+        <section class="highlights bg-light py-5">
+            <div class="container">
+                <h3 class="text-center">Pjatat më të spikatura</h3>
+                <div class="row text-center mt-4">
+                    <div class="col-md-4">
+                        <img src="images/dish1.jfif" class="img-fluid" alt="Dish 1">
+                        <h4>Pasta Speciale</h4>
+                        <p>E pasur me shije dhe e mbuluar me salcë kremi.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/dish2.jfif" class="img-fluid" alt="Dish 2">
+                        <h4>Salmon i Pjekur</h4>
+                        <p>Pjekur në mënyrë perfekte për të ruajtur shijet delikate.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/dish3.jfif" class="img-fluid" alt="Dish 3">
+                        <h4>Ëmbëlsirë me Çokollatë</h4>
+                        <p>Një kënaqësi e ëmbël për të mbyllur ushqimin tuaj.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials py-5 text-center">
+            <div class="container">
+                <h3>Çfarë Thonë Klientët Tanë</h3>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <img src="images/amazing.jpg" class="img-fluid" style=" width: 350px; height: 205px;">
+                            <p>"Ushqimi i mahnitshëm dhe një atmosferë e mrekullueshme!"</p>
+                            <footer class="blockquote-footer">Sarah K.</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <img src="images/deshmia2.jfif" class="img-fluid" style="width: 300px; height: 205px;">
+                            <p>"Përvoja më e mirë e ushqimit që kemi pasur në vitet e fundit."</p>
+                            <footer class="blockquote-footer">James L.</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-4">
+                        <blockquote class="blockquote">
+                            <img src="images/deshmia3.jfif" class="img-fluid"style="width: 300px; height: 200px;">
+                            <p>"E rekomandoj shumë! Ushqim i shijshëm dhe shërbim i mrekullueshëm."</p>
+                            <footer class="blockquote-footer">Anna R.</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Lokacioni: Lipjan Gjergj Fishta, Kosovë</p>
+        <p>Orari: 9am - 12pm | Ndiqni në mediat sociale për lajmet më të fundit!</p>
+    </footer>
+<script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
